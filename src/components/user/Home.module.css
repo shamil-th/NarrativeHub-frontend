@@ -1,0 +1,58 @@
+.navbar_background{
+    width: 100%;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    z-index: 1000!important;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 15px;
+    border-radius: 0 0 20px 20px;
+    width: 90%;
+    align-items: center;
+}
+.user_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.search_section{
+    display: flex;
+    align-items: center;
+    border: 1px solid  #aeadad;
+    padding: 2px 2px 2px 10px;
+    border-radius: 20px;
+}
+.search_section input{
+    border: none;
+    padding: 5px;
+}
+.search_section input:focus-visible {
+    outline: inherit;
+}
+.search_icon{
+    display: flex;
+    align-items: center;
+    background-color:#1d1d1d;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.home_content{
+    /* margin-top: -100px; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    /* z-index: 100!important; */
+}

@@ -1,0 +1,9 @@
+.codeblock{
+    width: 50%;
+    background-color: rgb(224, 221, 221);
+}
+.upload_img{
+    width: 500px;
+    height: 600px;
+    object-fit: contain;
+}

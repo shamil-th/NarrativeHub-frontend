@@ -1,0 +1,49 @@
+.home_cover{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    max-height: 500px;
+}
+.cover_details{
+    background-color: #1d1d1d;
+    color: white;
+    max-width: 40%;
+    padding: 10px 20px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.time{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+}
+.cover_img{
+    max-width: 60%;
+}
+.cover_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.home_cover .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cover_details p{
+    color: #d1d1d1;
+    font-size: 14px;
+}
+.read_more{
+    background-color: white;
+    border: transparent;
+    border-radius: 30px;
+    padding: 12px;
+    width: fit-content;
+    font-size: small;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
