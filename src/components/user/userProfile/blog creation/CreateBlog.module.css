@@ -7,3 +7,17 @@
     height: 600px;
     object-fit: contain;
 }
+.publish{
+    background-color: #1a8917;
+    border: transparent;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 99em;
+}
+
+.previewImg{
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+}

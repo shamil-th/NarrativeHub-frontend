@@ -7,7 +7,7 @@ const SearchBox = () => {
     <div className={Style.search_section}>
       <input type="text" placeholder="Search" />
       <div className={Style.search_icon}>
-      <SearchIcon style={{ color: "white" }} />
+        <SearchIcon style={{ color: "white" }} />
       </div>
     </div>
   );

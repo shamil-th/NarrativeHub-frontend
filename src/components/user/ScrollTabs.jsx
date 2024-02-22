@@ -36,7 +36,7 @@ export default function ScrollableTabsButtonAuto() {
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
-          indicatorColor="primary" // Change the color of the indicator
+          indicatorColor="primary"
         >
           <Tab label="Item One" sx={{ '&.Mui-selected': { color: 'primary' } }} />
           <Tab label="Item Two" sx={{ '&.Mui-selected': { color: 'primary' } }} />
